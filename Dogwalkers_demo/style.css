@@ -1,0 +1,433 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.main-body{
+    width: 100%;
+    height: 100%;
+    background-color:  rgb(251, 252, 253);
+    float: left;
+    margin: 0%;
+    overflow: hidden;
+}
+.navbar{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    width: 62px;
+    cursor: pointer;
+    margin: 30px 85px;
+}
+.menu-icon{
+    width: 25px;
+    cursor: pointer;
+    display: none;
+}
+.app-name{
+    font-size: 50px;
+    padding-left: 15px;
+    margin: 0%;
+    margin-left: -72px;
+} 
+nav{
+    flex: 1;
+    text-align: right;
+    margin: 0%;
+    padding: 0%;
+}
+nav ul li{
+    list-style:none;
+    display: inline-block;
+    /* margin: 30px; */
+    padding-right: 90px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+}
+nav ul li a:hover{
+    color: rgb(254, 116, 116);
+}
+
+
+/* .header{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(253, 253, 213);
+    float: left;
+}
+.header-left{
+    width: 50%;
+    height: 100px;
+    float: left;
+}
+.header-right{
+    width: 50%;
+    height: 100px;
+    float: left;
+}
+.menu-icon{
+    width: 5%;
+    padding-left: 2%;
+    padding-top: 1%;
+    
+}
+.app-name{
+    font-size: 50px;
+    font-family: sans-serif;
+    margin: 3%;
+    margin-top: 17px;
+    margin-left: 85px;
+} */
+/* ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+    
+}
+ul li a{
+    margin-top: 20%;
+    margin-bottom: 20px;
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    
+} */
+/* .icon{
+    padding-left: 65px;
+    margin-top: 66px;
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    display: inline-block;
+}
+.icon:hover{
+    background-color: rgb(254, 116, 116);
+} */
+/* .profile-icon{
+    
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+.faq-icon{
+    margin: 40px;
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+} */
+.centre{
+    width: 100%;
+    height: 700px;
+    float: left;
+    background: white
+}
+.walkers-picture{
+    padding-left: 350px;
+    height: 250px;
+
+}
+.para1{
+    font: bold;
+    font-size: 40px;
+    padding-left: 380px;
+}
+.inner-centre{
+    padding-left: 0px;
+    margin-left: 0px;
+    width: 100%;
+    height: 350px;
+    float: left;
+    background: rgb(224, 100, 100);
+
+}
+.para2{
+    font:small;
+    font-size: 20px;
+    padding-left: 60px;
+    font-family: system-ui;
+}
+.dog-picture{
+    padding-left: 788px;
+    margin-bottom: -265px;
+    height: 38vh;
+
+}
+.outer-schedule{
+    width: 20.5%;
+    height: 116px;
+    float: left;
+    background: white;
+    margin-left: 600px;
+    padding: 0%;
+    padding-top: 17px;
+}
+#schedu{
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 50px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    background-color: white;
+    cursor: pointer;
+    margin-left: 23px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#schedu:hover{
+    background-color: rgb(254, 116, 116);
+}
+.tail{
+    width: 100%;
+    height: 400px;
+    background-color: #bbccdc;
+    float: left;
+    margin: 0%;
+    padding: 0%;
+}
+.tail-upper{
+    width: 100%;
+    height: 250px;
+    background: #bbccdc;
+}
+.more-info{
+    padding-left: 527px;
+    height: 250px;
+}
+.info{
+    padding-left: 620px;
+    margin-top: -215px;
+    color: white;
+}
+#about{
+    margin-left: 675px;
+    margin-top: 43px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    cursor: pointer;
+    border-style: none;
+}
+#about:hover{
+    background-color: rgb(254, 116, 116);
+}
+.tail-lower{
+    width: 100%;
+    height: 153px;
+    background: #bbccdc;
+}
+.tail-left{
+    width: 50%;
+    height: 150px;
+    background-color: #bbccdc;
+    
+}
+.tail-ul{
+    width: 40%;
+    height: 75px;
+    background-color:#bbccdc;
+    float: left;
+    
+}
+.tail-ur{
+    width: 40%;
+    height: 75px;
+    background-color: #bbccdc;
+    float: left;
+    
+}
+.tail-ll{
+    width: 40%;
+    height: 75px;
+    background-color: #bbccdc;
+    float: left;
+    
+}
+.tail-lr{
+    width: 40%;
+    height: 75px;
+    background-color: #bbccdc;
+    float: left;
+    
+}
+#straight-line{
+    height:3px;border-width:0;color:gray;background-color:gray;
+    margin-top: 0px;
+    
+
+}
+.download-link{
+    height: 97px;
+    padding-left: 100px;
+}
+.download-link1{
+    height: 97px;
+    padding-left: -119px;
+}
+.para3{
+    text-decoration: none;
+    color: grey;
+    padding-left: 100px;
+}
+.para4{
+    text-decoration: none;
+    color: grey;
+    padding-left: -119px;
+}
+@media screen and (max-width:700px){
+   
+    nav ul{
+        width: 100%;
+        background: rgb(242, 147, 207);
+        position: absolute;
+        top: 75px;
+        right: 0;
+        z-index: 2;
+
+    }
+    nav ul li{
+        display: block;
+        margin-top: 10px;
+        margin-bottom: 10px;
+
+    }
+    nav ul li a{
+        color: white;
+    }
+    .menu-icon{
+        display: block;
+    }
+    #menuList{
+        overflow: hidden;
+        transition: 0.5s;
+    }
+    .navbar{
+        height: 50px;
+        align-items: center;
+    }
+    .logo{
+        
+        width: 42px;
+        margin: 10px 20px;
+    }
+    .app-name{
+        font-size: 25px;
+        padding-left: 82px;
+    }
+    .centre{
+        height: 480px;
+    }
+    .walkers-picture{
+        padding-left: 0px;
+        height: 200px;
+    }
+    .para1{
+        font-size: 12px;
+        padding-left: 57px;
+    }
+    .inner-centre{
+        height: 250px;
+        /* padding: 3px; */
+    }
+    .para2{
+        font-size: 11px;
+        padding-left:0%;
+    }
+    .dog-picture{
+        padding-left: 102px;
+    margin-bottom: -236px;
+    height: 80px;
+    border-radius: 50%;
+    
+    }
+    .outer-schedule{
+        width: 27.5%;
+    height: 39px;
+    margin-left: 136px;
+    padding-top: 10px;
+    }
+    #schedu{
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 15px;
+    margin-left: 10px;
+    }
+    .more-info{
+        padding-left: 0px;
+        height: 250px;
+    }
+    .info{
+        padding-left: 90px;
+    }
+    #about{
+        margin-left: 137px;
+        font-size: 12px;
+    }
+    .download-link{
+        height: 47px;
+    padding-left: 12px;
+    }
+    .download-link1{
+        height: 47px;
+        padding-left: -119px;
+    }
+    .para3{
+        text-decoration: none;
+        color: grey;
+        padding-left: 100px;
+    }
+    .para4{
+        text-decoration: none;
+        color: grey;
+        padding-left: -119px;
+    }
+    .tail-lower{
+        width: 100%;
+        height: 153px;
+        background: #bbccdc;
+    }
+    .tail-left{
+        width: 100%;
+        height: 150px;
+        background-color: #bbccdc;
+        
+    }
+    .tail-ul{
+        width: 17%;
+        height: 75px;
+        background-color:#bbccdc;
+        float: left;
+        
+    }
+    .tail-ur{
+        width: 40%;
+        height: 75px;
+        background-color: #bbccdc;
+        float: left;
+        
+    }
+    .tail-ll{
+        width: 40%;
+        height: 75px;
+        background-color: #bbccdc;
+        float: left;
+        
+    }
+    .tail-lr{
+        width: 40%;
+        height: 75px;
+        background-color: #bbccdc;
+        float: left;
+}
